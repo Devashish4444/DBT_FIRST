@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 WITH CTE AS (
 SELECT 
 --STARTED_AT, -- this was string initially so we change ts
